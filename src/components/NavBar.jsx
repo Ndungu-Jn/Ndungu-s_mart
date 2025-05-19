@@ -11,7 +11,10 @@ const Navbar = () => {
         <Link to="/">📱 Ndungu's Electronics</Link>
       </div>
       <div className="flex gap-4 items-center">
-        <Link to="/create" className="text-blue-600 dark:text-blue-400">
+        <Link
+          to="/create"
+          className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white dark:bg-blue-500 dark:hover:bg-blue-600 rounded shadow"
+        >
           Add Product
         </Link>
         <Link to="/cart" className="relative text-gray-800 dark:text-white">
