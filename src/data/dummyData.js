@@ -1,6 +1,6 @@
 // src/data/dummyData.js
-import iphone from "../assets/images/iphone.jpg";
-import samsung from "../assets/images/samsung.jpg";
+import iphone1 from "../assets/images/iphone1.jpg";
+import samsung2 from "../assets/images/samsung2.jpg";
 
 export const products = [
   {
@@ -8,13 +8,48 @@ export const products = [
     name: "iPhone 14 Pro",
     price: 999,
     description: "Latest Apple smartphone",
-    image: iphone,
+    image: iphone1,
   },
   {
     id: 2,
     name: "Samsung Galaxy S22",
     price: 899,
     description: "High-end Android phone",
-    image: samsung,
+    image: samsung2,
+  },
+  {
+    id: 1,
+    name: "iPhone 14 Pro",
+    price: 999,
+    description: "Latest Apple smartphone",
+    image: iphone1,
+  },
+  {
+    id: 2,
+    name: "Samsung Galaxy S22",
+    price: 899,
+    description: "High-end Android phone",
+    image: samsung2,
+  },
+  {
+    id: 1,
+    name: "iPhone 14 Pro",
+    price: 999,
+    description: "Latest Apple smartphone",
+    image: iphone1,
+  },
+  {
+    id: 2,
+    name: "Samsung Galaxy S22",
+    price: 899,
+    description: "High-end Android phone",
+    image: samsung2,
+  },
+  {
+    id: 2,
+    name: "Samsung Galaxy S22",
+    price: 899,
+    description: "High-end Android phone",
+    image: samsung2,
   },
 ];
