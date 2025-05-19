@@ -1,0 +1,51 @@
+export const products = [
+  {
+    id: 1,
+    name: "iPhone 14 Pro",
+    price: 999,
+    description: "Latest Apple phone",
+    image: "",
+  },
+  {
+    id: 2,
+    name: "Samsung Galaxy S22",
+    price: 899,
+    description: "Flagship Android device",
+    image: "",
+  },
+  {
+    id: 1,
+    name: "iPhone 14 Pro",
+    price: 999,
+    description: "Latest Apple phone",
+    image: "",
+  },
+  {
+    id: 2,
+    name: "Samsung Galaxy S22",
+    price: 899,
+    description: "Flagship Android device",
+    image: "",
+  },
+  {
+    id: 2,
+    name: "Samsung Galaxy S22",
+    price: 899,
+    description: "Flagship Android device",
+    image: "",
+  },
+  {
+    id: 1,
+    name: "iPhone 14 Pro",
+    price: 999,
+    description: "Latest Apple phone",
+    image: "",
+  },
+  {
+    id: 2,
+    name: "Samsung Galaxy S22",
+    price: 899,
+    description: "Flagship Android device",
+    image: "",
+  },
+];
