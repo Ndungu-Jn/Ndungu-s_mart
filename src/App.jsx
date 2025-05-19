@@ -10,17 +10,17 @@ import Cart from "./pages/Cart";
 import Navbar from "./components/Navbar";
 
 const App = () => {
-  // const darkMode = useSelector((state) => state.theme.darkMode);
+  const darkMode = useSelector((state) => state.theme.darkMode);
 
   // ✅ Sync Redux darkMode state with <html> class
-  // useEffect(() => {
-  //   const html = document.documentElement;
-  //   if (darkMode) {
-  //     html.classList.add("dark");
-  //   } else {
-  //     html.classList.remove("dark");
-  //   }
-  // }, [darkMode]);
+  useEffect(() => {
+    const html = document.documentElement;
+    if (darkMode) {
+      html.classList.add("dark");
+    } else {
+      html.classList.remove("dark");
+    }
+  }, [darkMode]);
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-white">

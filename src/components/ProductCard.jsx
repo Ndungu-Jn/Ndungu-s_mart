@@ -8,11 +8,13 @@ const ProductCard = ({ product }) => {
 
   return (
     <div className="bg-white dark:bg-gray-700 rounded shadow-md p-4">
-      <img
-        src={product.image || "https://via.placeholder.com/150"}
-        alt={product.name}
-        className="w-full h-40 object-cover rounded mb-4"
-      />
+      <div className="aspect-w-4 aspect-h-3 mb-4">
+        <img
+          src={product.image || "https://via.placeholder.com/150"}
+          alt={product.name}
+          className="w-full h-48 object-cover rounded mb-4"
+        />
+      </div>
       <h2 className="text-lg font-semibold text-gray-800 dark:text-white">
         {product.name}
       </h2>
